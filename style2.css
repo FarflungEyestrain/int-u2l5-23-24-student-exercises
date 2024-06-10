@@ -8,6 +8,7 @@ html {
   }
   h1{
     text-align: center;
+    color: rgb(255, 255, 255);
   }
   .milk {
     height: 400px;
@@ -15,7 +16,16 @@ html {
   }
   h2 {
     text-decoration: underline;
+    color: rgb(255, 255, 255);
   }
   p {
     font-family: 'Courier New', sans-serif;
+      padding: 5px;
+      margin: 5px;
+      font-size: 12x;
+      color: rgb(255, 255, 255);
+      text-align:left;
+  }
+  li{
+    color: rgb(255, 255, 255);
   }
