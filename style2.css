@@ -1,7 +1,7 @@
 html {
     height: 100%;
     width: 100%;
-    background-color: #00d5ff;
+    background-color: #00a7c9;
   }
   .custom-cursor-element {
     cursor: url('images/custom_cursor.png'), auto; /* Change the cursor to the custom image */
@@ -9,6 +9,10 @@ html {
   h1{
     text-align: center;
     color: rgb(255, 255, 255);
+    border: 5px, solid, white;
+    margin: 5px;
+    padding: 5px;
+
   }
   .milk {
     height: 400px;
