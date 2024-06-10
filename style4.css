@@ -9,5 +9,9 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 5px, solid, rgb(115, 115, 115);
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
   }
   
