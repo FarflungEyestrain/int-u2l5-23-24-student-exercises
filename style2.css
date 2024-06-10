@@ -1,0 +1,21 @@
+html {
+    height: 100%;
+    width: 100%;
+    background-color: #00d5ff;
+  }
+  .custom-cursor-element {
+    cursor: url('images/custom_cursor.png'), auto; /* Change the cursor to the custom image */
+  }
+  h1{
+    text-align: center;
+  }
+  .milk {
+    height: 400px;
+    width: 650px;
+  }
+  h2 {
+    text-decoration: underline;
+  }
+  p {
+    font-family: 'Courier New', sans-serif;
+  }

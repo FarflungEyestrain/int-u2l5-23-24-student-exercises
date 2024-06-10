@@ -1,0 +1,26 @@
+html {
+    height: 100%;
+    width: 100%;
+    background-color: #ffffff;
+  }
+  .custom-cursor-element {
+    cursor: url('images/milk.svg'), auto; /* Change the cursor to the custom image */
+  }
+  .cereal {
+    height: 200px;
+    width: 300px;
+  }
+  .cookies{
+    height: 300px;
+    width: 300px;
+  }
+  .milks{
+    height: 400px;
+    width: 400px;
+  }
+  h2 {
+    text-decoration: underline;
+  }
+  p {
+    font-family: 'Courier New', sans-serif;
+  }

@@ -1,56 +1,39 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f8ff;
-    color: #333;
-    margin: 0;
-    padding: 0;
-  }
-  
-  header {
-    background-color: #4caf50;
-    color: white;
-    padding: 10px;
-    text-align: center;
-  }
-  
-  nav {
-    margin: 10px;
-  }
-  
-  nav a {
-    color: white;
-    padding: 10px;
-    text-decoration: none;
-  }
-  
-  section {
-    padding: 20px;
-  }
-  
-  h1, h2 {
-    color: #555;
-  }
-  
-  ul {
-    list-style-type: circle;
-  }
-  
-  footer {
-    background-color: #eee;
-    padding: 10px;
-    text-align: center;
-  }
-  
-  #facts {
-    background-color: #fafafa;
-  }
-
-  #dino-image {
-    width: 100%;
-    max-width: 600px;
-    display: block;
-    margin: 10px auto;
-    border: 5px solid #4caf50;
-    border-radius: 10px;
-  }
-  
+html {
+  height: 100%;
+  width: 100%;
+  background-color: #000000;
+}
+@font-face {
+  font-family: 'CustomFont';
+  src: url('fonts/vcrmono.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'CustomFont2';
+  src: url('fonts/videotype.ttf') format('truetype');
+}
+header {
+  padding: 5px;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+}
+h1 {
+  font-family: 'EB Garamond', serif;
+  padding: 5px;
+  margin: 5px;
+  font-size: 50px;
+  color: red;
+  text-decoration: underline;
+}
+footer {
+  font-family: 'CustomFont2', sans-serif;
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+}
+button{
+  display: block; /* Make button a block element */
+  margin: 20px auto; /* Center button itself (horizontal) */
+}
